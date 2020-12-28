@@ -1,0 +1,291 @@
+@charset "UTF-8";
+body {
+  color: #28384d;
+  font-size: 14px;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  line-height: 1.78571;
+  letter-spacing: 0.05em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+.header {
+  background-color: #d3d9e3;
+  /* 仮色 */
+}
+
+.header__inner {
+  padding: 200px 0;
+  width: 90%;
+  max-width: 1120px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__title {
+  color: #223042;
+  font-size: 25px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.header__sub-title {
+  padding: 0 60px;
+  color: #223042;
+  font-size: 30px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  line-height: 1.5;
+}
+
+/* explanation */
+.explanation {
+  background-color: #e3e4e6;
+}
+
+.explanation__inner {
+  padding: 130px 0 250px;
+  width: 90%;
+  max-width: 1120px;
+  margin: auto;
+  text-align: right;
+}
+
+.explanation__text {
+  padding-right: 50px;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-align: left;
+  display: inline-block;
+}
+
+/* type */
+.type__inner {
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1120px;
+  margin: auto;
+}
+
+.type__title {
+  color: #223042;
+  font-size: 20px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.footer {
+  padding: 80px 0;
+  color: #FFFFFF;
+  background-color: #25324f;
+  text-align: center;
+}
+
+.footer__inner {
+  width: 90%;
+  max-width: 1120px;
+  margin: auto;
+}
+
+.footer__text {
+  font-size: 10px;
+}
+
+.footer__copy-right {
+  font-size: 7px;
+}
+
+/* pineapple-agar.html
+-----------------------------------------*/
+.sweets {
+  padding: 10px 0;
+  background-color: #dfe3ed;
+}
+
+.sweets__inner {
+  width: 90%;
+  max-width: 1120px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sweets__title {
+  font-size: 14px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.g-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.g-nav__item {
+  margin-left: 15px;
+}
+
+/* recipe */
+.recipe {
+  padding: 40px 0;
+}
+
+.recipe__inner {
+  width: 90%;
+  max-width: 1120px;
+  margin: auto;
+}
+
+.recipe__title {
+  font-size: 25px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  letter-spacing: 0.08em;
+}
+
+.recipe__supplement {
+  font-size: 12px;
+}
+
+.recipe__flow {
+  width: 90%;
+  max-width: 1120px;
+  margin: auto;
+}
+
+.recipe__flow p {
+  font-size: 16px;
+  padding-left: 14px;
+  border-left: 5px solid #337091;
+}
+
+.recipe__process {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.recipe__info {
+  padding: 10px 20px;
+  width: 50%;
+}
+
+/* card */
+.card {
+  width: 90%;
+  max-width: 1120px;
+  margin: auto;
+  position: relative;
+  background: #b8cae3;
+  -webkit-box-shadow: 0px 0px 0px 5px #b8cae3;
+          box-shadow: 0px 0px 0px 5px #b8cae3;
+  border: dashed 1.5px white;
+  margin: 80px auto;
+  padding: 0.2em 0.5em;
+}
+
+.card__title {
+  margin: 20px 0 0 20px;
+  font-size: 17px;
+  color: #223042;
+}
+
+.card::after {
+  position: absolute;
+  content: '';
+  right: -7px;
+  top: -7px;
+  border-width: 0 15px 15px 0;
+  border-style: solid;
+  border-color: #9dafc7 #fff #9dafc7;
+  -webkit-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.card__text {
+  margin: 0;
+  padding: 20px;
+}
+
+.mainflow {
+  width: 90%;
+  max-width: 1120px;
+  margin: auto;
+  position: relative;
+  background: #b8cae3;
+  -webkit-box-shadow: 0px 0px 0px 5px #b8cae3;
+          box-shadow: 0px 0px 0px 5px #b8cae3;
+  border: dashed 1.5px white;
+  margin: 80px auto;
+  padding: 0.2em 0.5em;
+}
+
+.mainflow__title {
+  margin: 20px 0 0 20px;
+  font-size: 17px;
+  color: #223042;
+}
+
+.mainflow::after {
+  position: absolute;
+  content: '';
+  right: -7px;
+  top: -7px;
+  border-width: 0 15px 15px 0;
+  border-style: solid;
+  border-color: #9dafc7 #fff #9dafc7;
+  -webkit-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.mainflow__title {
+  margin: 20px 0 0 20px;
+  font-size: 17px;
+}
+
+.mainflow__text {
+  margin: 0;
+  padding: 20px;
+  list-style-type: none;
+}
+
+.mainflow__text p {
+  padding-left: 8px;
+}
+/*# sourceMappingURL=style.css.map */
